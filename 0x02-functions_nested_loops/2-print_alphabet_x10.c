@@ -5,13 +5,13 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10 (void)
+void print_alphabet_x10(void)
 {
-int i=0;
+int i = 0;
+while (i < 10)
+{
 char alpha;
 alpha = 'a';
-while (i<10)
-{
 while (alpha <= 'z')
 {
 _putchar(alpha);
